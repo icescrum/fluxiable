@@ -7,7 +7,7 @@ import grails.plugin.fluxiable.Activity
 class FluxiableGrailsPlugin {
   def groupId = "org.icescrum"
 
-  def version = "0.3"
+  def version = "0.3.1"
   // the version or versions of Grails the plugin is designed for
   def grailsVersion = "1.3.7 > *"
   // resources that are excluded from plugin packaging

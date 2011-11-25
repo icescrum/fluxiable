@@ -1,4 +1,4 @@
-<plugin name='fluxiable' version='0.1' grailsVersion='1.3 &gt; *'>
+<plugin name='fluxiable' version='0.3' grailsVersion='1.3.7 &gt; *'>
   <author>Stephane Maldini</author>
   <authorEmail>smaldini@doc4web.com</authorEmail>
   <title>Fluxiable Plugin</title>
@@ -13,8 +13,6 @@ Inspired by Commentable plugin, this one allows you to display domain activity i
     <resource>grails.plugin.fluxiable.ActivityLink</resource>
     <resource>grails.plugin.fluxiable.ActivitiesTagLib</resource>
   </resources>
-  <dependencies>
-    <plugin name='hibernate' version='1.3 &gt; *' />
-  </dependencies>
+  <dependencies />
   <behavior />
 </plugin>
