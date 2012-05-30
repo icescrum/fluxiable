@@ -3,7 +3,7 @@
   <groupId>org.icescrum</groupId>
   <artifactId>fluxiable</artifactId>
   <packaging>zip</packaging>
-  <version>0.1</version>
+  <version>0.3.2</version>
   <name>Fluxiable Plugin</name>
   <description>\
 Inspired by Commentable plugin, this one allows you to display domain activity in a generic manner.
@@ -15,12 +15,4 @@ Inspired by Commentable plugin, this one allows you to display domain activity i
       <email>smaldini@doc4web.com</email>
     </developer>
   </developers>
-  <dependencies>
-    <dependency>
-      <groupId>org.grails.plugins</groupId>
-      <artifactId>hibernate</artifactId>
-      <version>[1.3,]</version>
-      <type>zip</type>
-    </dependency>
-  </dependencies>
 </project>
