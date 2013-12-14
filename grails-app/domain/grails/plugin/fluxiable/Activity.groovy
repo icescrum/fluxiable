@@ -14,7 +14,7 @@
  */
 package grails.plugin.fluxiable
 
-class Activity {
+class Activity implements Serializable {
 
   static final CODE_DELETE = 'delete'
   static final CODE_SAVE = 'save'

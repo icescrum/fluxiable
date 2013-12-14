@@ -16,7 +16,7 @@ package grails.plugin.fluxiable
 
 import grails.util.GrailsNameUtils
 
-class ActivityLink {
+class ActivityLink implements Serializable {
 
   static belongsTo = [activity: grails.plugin.fluxiable.Activity]
 
